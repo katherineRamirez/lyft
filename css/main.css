@@ -1,3 +1,357 @@
 /*
  * Estilos de tu proyecto
  */
+ *{
+ 	margin: 0 auto;
+ 	padding: 0px;
+ 	font-family: 'Montserrat', sans-serif;
+}
+.fondo-header img{
+	width: 70px;
+	height: 50px;
+	margin-top: 45px;
+	margin-left: 100px;
+	float: left;
+}
+.fondo-header{
+	background-image: url(../assets/images/hero.gif);
+	height: 100vh;
+	background-size: cover;
+	width: 100%;
+}
+.gradiente-morado{
+	background: linear-gradient(#76278F, #2B1E66);
+	height: 700px;
+	clear: both;
+	overflow: hidden;
+}
+
+#menu{
+	position: fixed;
+	font-size: 20px;
+	color: white;
+	width:1300px;
+	height: 150px;
+}
+#menu img{
+	width: 70px;
+	height: 40px;
+	margin-left: 100px;
+	margin-top: 50px;
+	float: left;
+}
+
+#menu .texto1 p{
+	margin-top: 50px;
+	margin-left: 750px;
+	font-size: 20px;
+	float: left;
+} 
+#menu .texto2 p{
+	margin-top: 50px;
+	margin-left: 50px;
+	font-size: 20px;
+	float: left;
+} 
+
+#menu .texto3 p{
+	margin-top: 50px;
+	margin-left: 50px;
+	font-size: 20px;
+	float: left;
+} 
+
+#menu .texto4 p{
+	margin-top: 45px;
+	margin-left: 50px;
+	font-size: 20px;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	border: 2px outset white;
+	border-radius: 7px;
+} 
+
+#menu:hover{
+	height: 150px;
+	background-color: white;
+}
+#menu .texto1 p:hover{
+	color: #FF00BF;
+}
+#menu .texto2 p:hover{
+	color: #FF00BF;
+}
+#menu .texto3 p:hover{
+	color: #FF00BF;
+}
+#menu .texto4 p:hover{
+	color: #FF00BF;
+}
+
+#menu-lateral{
+	margin-top: 130px;
+	font-size: 20px;
+	background-color: white;
+	color: #352384;
+	float: right;
+	padding: 50px;
+	width: 400px;
+	height: 350px;
+}
+#menu-lateral p{
+	font-size: 15px;
+	margin-top: 10px;
+}
+#menu-lateral a p{
+	font-size: 16px;
+	color: #728099;
+	margin-top: 40px;
+}
+hr{
+	margin-top: 10px;
+}
+.boton{
+	background-color: #FF00BF;
+	color: white;
+	border-radius: 7px;
+	width: 150px;
+	height: 40px;
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+.enlace{
+	font-size: 16px;
+	float: left;
+}
+#menu-lateral .enlace p{
+	font-size: 10px;
+	float: left;
+}
+#menu-lateral .enlace p a{
+	color: #FF00BF;
+}
+#parrafos{
+	float: left;
+	margin-top: 80px;
+	margin-left: 100px;
+	color: white;
+}
+#parrafos p{
+	margin-top: 20px;
+	line-height: 2;
+	text-align: justify;
+}
+#parrafos h2{
+	margin-top: 30px;
+}
+.parrafo2 h2{
+	padding-top: 40px;
+}
+.parrafo3 h2{
+	padding-top: 40px;
+}
+.telefono img{
+	margin-top: 120px;
+	margin-right: 90px;
+	width: 500px;
+	height: 500px;
+	float: right;
+}
+.videos{
+	clear: both;
+	overflow: hidden;
+}
+.parrafo4{
+	padding-top: 700px;
+	margin-left: 50px;
+	float: left;
+}
+.parrafo4 h2{
+	text-transform: uppercase;
+}
+.parrafo4 p{
+	color: black;
+	margin-top:30px;
+	text-align: justify;
+}
+.video1{
+	margin-top: 635px;
+	float: right;
+}
+.video2{
+	float: left;
+	margin-bottom: 200px;
+}
+.parrafo5{
+	padding-top: 50px;
+	margin-right: 50px;
+	float: right;
+}
+.parrafo5 h2{
+	text-transform: uppercase;
+}
+.parrafo5 p{
+	margin-top:30px;
+	color: black;
+	text-align: justify;
+}
+.parrafo6{
+	float: left;
+	padding-top: 350px;
+}
+.parrafo6 h2{
+	text-transform: uppercase;
+}
+.parrafo6 p{
+	margin-top:30px;
+	color: black;
+	text-align: justify;
+}
+.video3{
+	margin-bottom: 200px;
+	float: right;
+}
+footer{
+	background-color: #333447;
+	background-size: cover;
+	width: 100%;
+	height: 90vh;
+	color: white;
+}
+footer h3{
+	float: left;
+	margin-top: 70px;
+	margin-left: 130px;
+	text-transform: uppercase;
+}
+.lista-log{
+	margin-top: 100px;
+	display: inline-block;
+	line-height: 2;
+}
+.lista-partner{
+	margin-top: 100px;
+	display: inline-block;
+	line-height: 2;
+}
+.lista-learn{
+	margin-top: 100px;
+	display: inline-block;
+	line-height: 3;
+}
+
+footer img{
+	width: 120px;
+	height: 40px;
+	margin-left: 900px;
+}
+
+.lista1{
+	float: left;
+}
+.lista1 ul li a:hover{
+	color: #FF00BF;
+}
+.lista1 ul{
+	list-style: none;
+}
+.lista1 h3{
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+ul li{
+	margin-top: 30px;
+	margin-left:125px;
+}
+ul li:first-child{
+	margin-top: 100px;
+}
+ul a{
+	color: white;
+	text-decoration: none;
+}
+.lista2{
+	float: left;
+}
+.lista2 ul li a:hover{
+	color: #FF00BF;
+}
+.lista2 ul{
+	list-style: none;
+}
+.lista2 h3{
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+ul li{
+	margin-top: 30px;
+	margin-left:125px;
+}
+ul li:first-child{
+	margin-top: 100px;
+}
+ul a{
+	text-decoration: none;
+}
+.lista3{
+	float: left;
+}
+.lista3 ul li a:hover{
+	color: #FF00BF;
+}
+.lista3 ul{
+	list-style: none;
+}
+.lista3 h3{
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+ul li{
+	margin-top: 30px;
+	margin-left:125px;
+}
+ul li:first-child{
+	margin-top: 100px;
+}
+ul a{
+	text-decoration: none;
+}
+
+footer #redes-sociales div{
+	margin-top: 30px;
+	font-size: 20px;
+	display: inline-block;	
+}
+footer #redes-sociales .facebook{
+	margin-left: 500px;
+	border: 2px solid white;
+	padding: 8px;
+	border-radius: 60%;
+}
+footer #redes-sociales .instagram{
+	margin-left: 50px;
+	border: 2px solid white;
+	padding: 8px;
+	border-radius: 60%;
+}
+footer #redes-sociales .twitter{
+	margin-left: 50px;
+	border: 2px solid white;
+	padding: 8px;
+	border-radius: 60%;
+}
+
+hr{
+	margin-top: 40px;
+	width: 900px;
+}
+p{
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+}
+
+
