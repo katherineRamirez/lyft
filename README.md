@@ -37,5 +37,4 @@ T       * Texto del formulario: #728099
         * https://www.youtube.com/watch?v=xj2VWLV0xCU
 
   - Para hacer que mi menú de la parte superior quedara de forma fija usé el código position: fixed.
-
-  - Para agregar los videos de youtube a mi web, use el código <iframe> </iframe>, para cada uno de los videos.
+  - Para agregar los videos de youtube a mi web, use el código <iframe> </iframe>, para cada uno de los videos.
