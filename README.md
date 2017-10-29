@@ -2,11 +2,11 @@
 
 Reto de código número 2: Un repositorio que sea una Maquetación del sitio web Lyft.
 
-##Objetivos:
+## Objetivos:
 
 Poder replicar el sitio Lyft, mediante todos los recursos que nos ofrece el repositorio boilerplate (plantilla inicial).
 
-##Replicando Lyft
+## Replicando Lyft
 
   Realicé un fork del repositorio boilerplate y luego lo cloné en mi pc.
 
@@ -17,7 +17,7 @@ Para el archivo html:
    -  Enlazar links de fuentes deseadas mediante google fonts.   
    -  Enlazar nuestra carpeta descargada font-awesome, que contiene los íconos que usaré en mi web.
 
-##Consideraciones
+## Consideraciones
 
   Para poder hacer una replica exácta necesité de lo siguiente:
 
