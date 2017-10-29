@@ -23,17 +23,18 @@ Para el archivo html:
 
    -  Tipografías: Montserrat.
    -  Paletas de colores: 
-         Botones, hover: #FF00BF
-         Fondo de footer: #333447
-         Título del formulario: #352384
-T        Texto del formulario: #728099
-         Gradiente morado: linear-gradient(#76278F, #2B1E66);  
+        * Botones, hover: #FF00BF
+        * Fondo de footer: #333447
+        * Título del formulario: #352384
+T       * Texto del formulario: #728099
+        * Gradiente morado: linear-gradient(#76278F, #2B1E66);  
+        
    - Iconos de redes sociales desde Font Awesome.   
    - Imágenes dentro de la carpeta lyft.
    - Videos de youtube:
-         https://www.youtube.com/watch?v=fLSmUWOYpKw
-         https://www.youtube.com/watch?v=V7j8Aqxmbs8
-         https://www.youtube.com/watch?v=xj2VWLV0xCU
+        * https://www.youtube.com/watch?v=fLSmUWOYpKw
+        * https://www.youtube.com/watch?v=V7j8Aqxmbs8
+        * https://www.youtube.com/watch?v=xj2VWLV0xCU
 
   - Para hacer que mi menú de la parte superior quedara de forma fija usé el código position: fixed.
 
