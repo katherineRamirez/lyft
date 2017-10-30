@@ -1,11 +1,14 @@
+
 /*
  * Estilos de tu proyecto
  */
+ /* dejo todo el margen y el padding en 0 y el estilo de texto de mi web será Montserrat */
  *{
  	margin: 0 auto;
  	padding: 0px;
  	font-family: 'Montserrat', sans-serif;
 }
+/* doy ancho, alto y margenes a la imagen del menú */
 .fondo-header img{
 	width: 70px;
 	height: 50px;
@@ -13,19 +16,25 @@
 	margin-left: 100px;
 	float: left;
 }
+/* establezco como fondo una imagen llamada hero.gif, le doy altura, ancho y tamaño */
 .fondo-header{
 	background-image: url(../assets/images/hero.gif);
-	height: 100vh;
+	height: 110vh;
 	background-size: cover;
 	width: 100%;
 }
+/* establezco como fondo un gradiente, le doy altura y utilizo las propiedades de clear y overflow, 
+por ser clase padre de elementos flotantes */ 
 .gradiente-morado{
 	background: linear-gradient(#76278F, #2B1E66);
 	height: 700px;
 	clear: both;
 	overflow: hidden;
+	display: inline-block;
+	margin-top: 100px;
+	width: 100%;
 }
-
+/* mi menú se encuentra en la parte superior y lo he dejado en posición fija */
 #menu{
 	position: fixed;
 	font-size: 20px;
@@ -33,6 +42,7 @@
 	width:1300px;
 	height: 150px;
 }
+/* le doy las dimensiones a mi imagen que se encuentra dentro del menú */
 #menu img{
 	width: 70px;
 	height: 40px;
@@ -71,11 +81,13 @@
 	border: 2px outset white;
 	border-radius: 7px;
 } 
-
+/* da animación al menú superior, al pasar el mouse sobre el menú el fondo cambia a color blanco */
 #menu:hover{
 	height: 150px;
 	background-color: white;
 }
+/* da la animación a los textos del menú, al pasar el mouse sobre los textos del menú su color
+cambia al color fucsia (#FF00BF)*/
 #menu .texto1 p:hover{
 	color: #FF00BF;
 }
@@ -107,31 +119,40 @@
 	font-size: 16px;
 	color: #728099;
 	margin-top: 40px;
+	text-align: justify;
 }
-hr{
-	margin-top: 10px;
+/* dando ancho a la línea horizontal que se encuentra en el menú lateral */
+#menu-lateral hr{
+	width: 399px;
 }
-.boton{
+
+#menu-lateral .boton p{
+	display: inline-block;
 	background-color: #FF00BF;
 	color: white;
 	border-radius: 7px;
 	width: 150px;
-	height: 40px;
-	padding: 10px;
-	margin-top: 20px;
-	text-align: center;
+	height: 30px;
+	padding: 5px;
+	padding-top: 20px;
+	margin-top: 30px;
 }
-.enlace{
+/* margenes al enlace del menú lateral */
+.enlace .sign{
+	position: relative;
+	bottom: 40px;
+	left: 200px;
 	font-size: 16px;
-	float: left;
 }
 #menu-lateral .enlace p{
 	font-size: 10px;
-	float: left;
+	text-align: justify;
+	color: #728099; 
 }
 #menu-lateral .enlace p a{
 	color: #FF00BF;
 }
+/* parrafos de la clase gradiente-morado */
 #parrafos{
 	float: left;
 	margin-top: 80px;
@@ -159,7 +180,8 @@ hr{
 	height: 500px;
 	float: right;
 }
-.videos{
+/*dándole las propiedades de clear y overflow al id padre videos */
+#videos{
 	clear: both;
 	overflow: hidden;
 }
@@ -177,17 +199,17 @@ hr{
 	text-align: justify;
 }
 .video1{
-	margin-top: 635px;
+	margin-top: 600px;
 	float: right;
 }
 .video2{
 	float: left;
-	margin-bottom: 200px;
 }
 .parrafo5{
 	padding-top: 50px;
 	margin-right: 50px;
 	float: right;
+	height: 500px;
 }
 .parrafo5 h2{
 	text-transform: uppercase;
@@ -198,8 +220,9 @@ hr{
 	text-align: justify;
 }
 .parrafo6{
+	padding-top: 50px;
+	padding-left: 50px;
 	float: left;
-	padding-top: 350px;
 }
 .parrafo6 h2{
 	text-transform: uppercase;
@@ -210,15 +233,17 @@ hr{
 	text-align: justify;
 }
 .video3{
-	margin-bottom: 200px;
 	float: right;
 }
+
 footer{
 	background-color: #333447;
 	background-size: cover;
 	width: 100%;
 	height: 90vh;
 	color: white;
+	clear: both;
+	overflow: hidden;
 }
 footer h3{
 	float: left;
@@ -226,48 +251,41 @@ footer h3{
 	margin-left: 130px;
 	text-transform: uppercase;
 }
-.lista-log{
-	margin-top: 100px;
-	display: inline-block;
-	line-height: 2;
-}
-.lista-partner{
-	margin-top: 100px;
-	display: inline-block;
-	line-height: 2;
-}
-.lista-learn{
-	margin-top: 100px;
-	display: inline-block;
-	line-height: 3;
-}
-
+/* dándo ancho, altura y margen a las etiquetas de auspiciadores */
 footer img{
 	width: 120px;
 	height: 40px;
 	margin-left: 900px;
+	display: inherit;
+	padding-top: 60px;
 }
 
 .lista1{
 	float: left;
 }
+/* animación a las listas del footer, al pasar el mouse sobre el texto el color cambia a #FF00BF*/
 .lista1 ul li a:hover{
 	color: #FF00BF;
 }
+/* sacándole los estilos de la lista ordenada*/
 .lista1 ul{
 	list-style: none;
 }
+/* cambiando el texto de la clase lista1 a mayúscula */
 .lista1 h3{
 	text-transform: uppercase;
 	margin-top: 50px;
 }
+/*margenes de las listas*/
 ul li{
 	margin-top: 30px;
 	margin-left:125px;
 }
+/*llamando al primer hijo del padre clase lista1*/
 ul li:first-child{
 	margin-top: 100px;
 }
+/*quitándole la línea al enlace de la lista */
 ul a{
 	color: white;
 	text-decoration: none;
@@ -318,12 +336,13 @@ ul li:first-child{
 ul a{
 	text-decoration: none;
 }
-
+/* margen, tamaño y ubicación de los logos de redes sociales */
 footer #redes-sociales div{
-	margin-top: 30px;
+	margin-top: 100px;
 	font-size: 20px;
 	display: inline-block;	
 }
+/* dándole borde circular a los íconos de redes sociales */
 footer #redes-sociales .facebook{
 	margin-left: 500px;
 	border: 2px solid white;
@@ -342,16 +361,19 @@ footer #redes-sociales .twitter{
 	padding: 8px;
 	border-radius: 60%;
 }
-
+/*margen y ancho de línea horizontal del footer*/
 hr{
 	margin-top: 40px;
 	width: 900px;
 }
+/*tamaño del texto, color y margenes del pie de página*/
 p{
 	font-size: 15px;
 	text-align: center;
 	color: white;
 	margin-top: 50px;
 }
+
+
 
 
